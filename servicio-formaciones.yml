@@ -5,3 +5,5 @@ eureka:
     service-url:
       defaultZone:  http://192.168.89.40:8761/eureka
     register-with-eureka: false
+  instance:
+    hostname: 192.168.89.40
